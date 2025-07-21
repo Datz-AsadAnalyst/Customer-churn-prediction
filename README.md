@@ -58,6 +58,7 @@ Predict customer churn for a telecom company using Machine learning model and id
 - Perform customer segmentation using clustering
 
 ## 🧠 Author
-Asad Ali — Data Scientist & Visualization Specialist
+Asad Ali  Data Scientist & Visualization Specialist
+
 LinkedIn | Portfolio | Email
 
