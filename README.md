@@ -2,7 +2,7 @@
 ## Objective:
 Predict customer churn for a telecom company using Machine learning model and identify key factors contributing to churn.
 
-##📁 Dataset Overview
+## 📁 Dataset Overview
 - Source: Public telecom dataset
 - Rows: 7,000+
 - Target Variable: Churn (Yes/No)
@@ -38,33 +38,26 @@ Predict customer churn for a telecom company using Machine learning model and id
 - Recall (Class 1): ~0.61
 - ROC AUC: 0.81
 
-6. 🔍 Feature Importance
-Extracted top 5 most influential features using sklearn model coefficients.
+### 6. 🔍 Feature Importance
+- Extracted top 5 most influential features using sklearn model coefficients.
 
-🎯 Key Insights
-Customers with high TotalCharges and MonthlyCharges are more likely to churn.
+## 🎯 Key Insights
+- Customers with high TotalCharges and MonthlyCharges are more likely to churn.
+- Short tenure is a strong indicator of churn.
+- Customers on Fiber optic internet and Month-to-month contracts are at higher risk.
 
-Short tenure is a strong indicator of churn.
+## 📂 Files
+- churn_cleaned.csv — Cleaned dataset
+- churn_model.ipynb — Full notebook with EDA, feature engineering, modeling, and evaluation
+- models/ — Trained model files
+- README.md — Project summary
 
-Customers on Fiber optic internet and Month-to-month contracts are at higher risk.
+## 🚀 Future Work
+- Implement more advanced ensemble methods
+- Deploy as a web app using Streamlit
+- Perform customer segmentation using clustering
 
-📂 Files
-churn_cleaned.csv — Cleaned dataset
-
-churn_model.ipynb — Full notebook with EDA, feature engineering, modeling, and evaluation
-
-models/ — Trained model files
-
-README.md — Project summary
-
-🚀 Future Work
-Implement more advanced ensemble methods
-
-Deploy as a web app using Streamlit
-
-Perform customer segmentation using clustering
-
-🧠 Author
+## 🧠 Author
 Asad Ali — Data Scientist & Visualization Specialist
 LinkedIn | Portfolio | Email
 
