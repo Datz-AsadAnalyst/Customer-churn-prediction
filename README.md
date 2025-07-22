@@ -3,7 +3,7 @@
 Predict customer churn for a telecom company using Machine learning model and identify key factors contributing to churn.
 
 ## 📁 Dataset Overview
-- Source: Public telecom dataset
+- Source:[Kaggle – Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - Rows: 7,000+
 - Target Variable: Churn (Yes/No)
 ## Key Features Used:
@@ -12,6 +12,16 @@ Predict customer churn for a telecom company using Machine learning model and id
 - MonthlyCharges
 - Contract_Two year
 - InternetService_Fiber optic
+
+## 🚀 Process Flow
+
+1. Data Cleaning & Binary Conversion
+2. Exploratory Data Analysis (EDA)
+3. Correlation Analysis
+4. Model Training (Logistic, Tree, RandomForest)
+5. Model Evaluation (Accuracy, Confusion, Classification Report)
+6. Feature Importance
+7. Model Saving + Prediction
 
 ## 🧱 Steps Followed
 ### 1. 📊 Data Preprocessing
